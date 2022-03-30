@@ -58,7 +58,6 @@ const fs = require("fs");
       const bqbaList = document.querySelectorAll(".bqba");
       const resource = new Array();
       bqbaList.forEach((item) => {
-        console.log(item.href);
         const description = item.querySelector('.header').innerHTML
         resource.push({
           description,
